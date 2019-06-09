@@ -1,0 +1,83 @@
+html{
+    height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bg {
+  /* The image used */
+	/* background-image: url("img/gta-5-nature-7r-1920x1200.jpg");*/
+	background-image: url("/img/bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.darksection{
+    width: 100%;
+    background-color: rgb(40, 40, 40)
+}
+
+
+	  /* CSS will change to this when width is less than 991 px*/
+
+@media only screen and (max-width: 991px) {
+
+.container {
+	  /* Make the innect parts, 100% width instead of whwat it was*/
+	max-width: 100% !important;
+	min-width: 100% !important;
+}
+
+.nav-link{
+	  /* Make al text white, line under text, bigger fonts, and make a space from left side to the text */
+	text-align: left;
+	border-bottom: 1.2px solid rgba(0,0,0,0.3);
+	font-size: 1.8rem;
+ padding-left: .25rem;
+}
+
+  /* make dorpdown toggle on left size */
+.navbar-toggler {
+	float: left;
+	height: 5rem;
+	}
+
+.navbar-toggler-icon {
+	  /* Cdropdown toggle size */
+	height: 3rem !important;
+	width: 3rem !important;	 
+}
+
+.navbar {
+	  /* remove padding from nav */
+	padding: 0px !important;
+
+}
+
+.nav-link {
+	  /* more space from left side to text */
+	padding-left: 0.5em !important;
+}
+
+.bluntslayer {
+	  /* a container excluding the top bit, mac with, float left, and a lighter color*/
+	background-color: #2d2d2d;
+	width: 100%;
+	float: left;
+}
+
+
+}
