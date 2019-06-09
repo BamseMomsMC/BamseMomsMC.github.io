@@ -21,7 +21,6 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
-              <h1>Søk Om Whitelist</h1>
             </div>
         </div>
                 <form  class="form" action="https://usebasin.com/f/ebb31dd3dced" method="POST" role="form">  
@@ -31,8 +30,19 @@
                             <input name="E-Post" type="text" class="feedback-input" placeholder="E-Post" required />
                             <label><h3 style="color: #fff;">Ditt Minecraft Navn</h3></label>  
                             <input name="MineCraft Navn" type="text" class="feedback-input" placeholder="Minecraft Navn" required />
-                            <label><h3 style="color: #fff;">HvorFor Vil Du Bli Med</h3></label>
+                            <label><h3 style="color: #fff;">HvorFor Vil Du Søke Denne Ranken?</h3></label>
                             <textarea name="Hvorfor Vil Du Bli Med" class="feedback-input" placeholder="Melding" required ></textarea>
+                            <label><h3 style="color: #fff;">Velg Rank Som Du VIl Søke Til</h3></label>
+                            <select class="feedback-input" style=" color: white; " name="Valg">
+                              <optgroup label="Velg">
+                                <option value="Bygger">Bygger</option>
+                                <option value="Mod">Mod</option>
+                                <option value="Admin">Admin</option>
+                                <option value="Streamer">Streamer</option>
+                              </optgroup>
+                              </select>
+                              <br>
+                              <br>
                             <input type="submit" value="Send"/>
                           </form>
                           <a href="/"> HJEM </a>
