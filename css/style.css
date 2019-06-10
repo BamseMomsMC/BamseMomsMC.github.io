@@ -6,6 +6,12 @@ body {
   overflow-x: hidden;
 }
 
+
+marquee{
+	background-color: #2d2d2d;
+	color: white;
+}
+
 .bg {
   /* The image used */
 	/* background-image: url("img/gta-5-nature-7r-1920x1200.jpg");*/
