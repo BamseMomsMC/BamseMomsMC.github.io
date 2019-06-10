@@ -2,3 +2,7 @@ html{
     background-color: wheat;
     text-align: center;
 }
+
+p{
+    font-family: sans-serif;
+}
